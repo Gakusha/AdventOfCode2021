@@ -1,8 +1,7 @@
 lista=[]
 
-for line input().split("\n"):
-    lista.append([])
-    for c in list(line):
-        lista[-1].append(int(c))
+for line  in input().split("\n"):
+    a,b=line.split(" -> ")
+    lista.append([a,b])
         
 
